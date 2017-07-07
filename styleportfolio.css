@@ -1,0 +1,140 @@
+#eecaon {
+    float: left;
+    position: relative;
+    border: solid black 15px;
+    border-radius: 30%;
+    width: 15em;
+    background-color: rgb(204, 204, 255);
+}
+
+.logo {
+    width: 3em;
+    margin: 5px;
+    padding: 5px;
+}
+header{
+    background-color: gray;
+    border-bottom: solid black 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 102, 0.5);
+}
+.nav-wrapper{
+    overflow: hidden;
+}
+
+.listeNav{
+    color: black;
+
+}
+
+
+body{
+    background-image: url(https://i2.wp.com/www.wallpapersbyte.com/wp-content/uploads/2015/07/Binary-Numbers-0-1-Code-Matrix-Blue-Hack-Pattern-Abstract-WallpapersByte-com-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#touteLaPage{
+    display: flex;
+    flex-direction: column;
+    size :xx-large;
+    margin:  20px;
+}
+.blocPartie{
+    margin: 25px;
+    padding: 20px;
+    background-color : rgba(255, 255, 255, 0.3);
+    border: solid black 5px;
+    border-left: solid black 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 102, 0.5);
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(255, 153, 0)
+}
+
+#boutton{
+    display: flex;
+    justify-content: center;
+}
+#buttonHautPage{
+    color: black;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 4px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 102, 0.5);
+}
+#buttonHautPage:hover{
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+}
+
+
+#footer{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    border-top: solid black 5px;
+
+}
+.elFooter{
+    margin: 15px;
+    padding: 20px;
+}
+
+.logoDiv{
+    margin:10px;
+    padding:5px
+}
+.logo:hover{
+    /*border: solid yellow 3px;*/
+    padding: 0;
+    box-shadow: 2px 2px 2px black;
+}
+
+#formulaire{
+    border-left: solid black 2px;
+}
+label{
+    color: black;
+}
+textarea{
+    background-color:white;
+}
+#inputEnvoie:hover{
+    border: solid yellow 5px;
+}
+
+
+
+
+
+/*-----------------*/
+h1, h2, h3{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p{
+    font-size: large;
+    margin: 3px;
+    font-weight: bold;
+}
+
+
+
+.caseFormulaire{
+    margin: auto;
+    padding: 5px;
+    color: black;
+}
+/*styliser le texte des liens dans le nav*/
+
+nav ul a, nav .material-icons{
+color: black;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Océane's Port Folio</title>
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="grillade.scss"> <!-- pour les grid -->
+		<link rel="stylesheet" href="styleportfolio.css">
+		<link rel="stylesheet" href="respstyle.css">
+
+
+	</head>
+	<body>
+		 <header id="hautPage">
+			<img src="eecaon.gif"
+				alt="image en pixel de e-ecaon, ma masquotte"
+				id="eecaon"
+				title="Eecaon : ma p'tite masquotte">
+			<h1 class="center-align">Océane</h1>
+			<h2 class="center-align">Mon port-folio</h2>
+			<!-- BARRE DE NAVIGATION--><!-- Exemple de Manu pour faire une barre
+			de navigation comme celle d'OpenClassRooms avec un Frameworks-->
+			<nav>
+				<div class="nav-wrapper" >
+					<ul id="nav-mobile" >
+						<li><a><span class="listeNav">Mon port-folio</span></a></li>
+						<li><a href="#monParcours"><span class="listeNav">Mon Parcours</span></a></li>
+						<li><a href="#maSituation"><span class="listeNav">Ma situation</span></a></li>
+						<li><a href="#projectionFuture"><span class="listeNav">Mon futur</span></a></li>
+					</ul>
+					<!--
+					<ul class="right hide-on-med-and-down">
+						<li><a class="waves-effect waves-dark btn">S'inscrire</a></li>
+						<li><a class="waves-effect waves-light btn">Se connecter</a></li>
+					</ul>
+					<form class="right">
+						<div class="input-field">
+							<input id="search" type="search" required>
+							<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+							<i class="material-icons">close</i>
+						</div>
+					</form>
+				-->
+				</div>
+			</nav>
+		 </header>
+		 <div id="touteLaPage">
+			<!--Quelques lignes sur mon parcours-->
+			<section id="monParcours" class="blocPartie">
+				<h2>Mon parcours</h2>
+				<p>Ayant suivi depuis le lycée une filière Sanitaire et Sociale, je suis renrée dans une école d'infirmière...
+				</br>
+				... pour en ressortir 6 mois plus tard : je me suis rendu compte que pratiquer cette profession ne me conviendrait pas.
+				</p>
+				<p>Changement total d'orientation, je me tourne vers un nouveau domaine : le <em>numérique</em>.
+				</p>
+				<p>Avec la Mission Locale, je participe à une formation à l'Afpa,
+					afin de découvrir le métier de développeur web. Des tests et un entretien de motivation m'ont
+					permis d'acceder à la
+					<a href="https://www.grandeecolenumerique.fr/"
+					   target="_blankGEN"
+					   title="cliquez pour consulter le site internet"
+					   class="lienCle"><em>Grande Ecole du Numérique</em></a>.
+				</p>
+			</section>
+			<hr>
+			<!--Description de mon activité/ma situation actuelle-->
+			<section id="maSituation" class="blocPartie">
+				<h2>Ma situation actuelle</h2>
+				<p>Actuellement en formation de <em>développeur logiciel/web</em> à l'IMIE du Mans,
+				</br> nous travillons en groupes sur la création et la mise en place d'un projet en lien avec
+				les modules qui nous sont enseignés. La deadline de trois mois.
+				</p>
+				<p>D'ic là, nous aurons appris différents langages, tels que HTML, CSS, Java Scrip, PHP,...
+					ainsi que l'utilisation de Frameworks et CMS, l'utilisation de machine virtuelle,
+					le fonctionnement du réseau internet, la gestion de bases de données,
+					le fonctionnement du monde de l'entreprise, etc...
+			</section>
+			<hr>
+			<!--Projection future-->
+			<section id="projectionFuture" class="blocPartie">
+				<h2>Projection future</h2>
+				<p>Pour commencer, terminer et valider cette formation,
+				</br>
+				notamment en passant par une période de professionnalisation au sein d'une entreprise</p>
+				<p>Ensuite, progresser en continuant les études dans le développement du numérique.</p>
+				<p>Enfin, dans un futur plus lointain, être en activité dans le monde de l'emploi, travailler
+				dans une entreprise dont les valeurs sont en adéquation avec les miennes.</p>
+			</section>
+			<hr>
+			<div id="boutton">
+				<a href="#hautPage">
+			<input type="button"
+				   value="Retour haut de page"
+				   name="ancre_haut_de_page"
+				   id="buttonHautPage"
+				   >
+			   </a>
+		   </div>
+		</div>
+		<footer id="footer">
+			<!--Liens vers profils de sites "pro"-->
+			<section id="lienSites" class="elFooter">
+				<div><h3>Présente sur :</h3></div>
+				<div id="logoLinkedIn" class="logoDiv">
+					<a href="https://www.linkedin.com/in/oc%C3%A9ane-bertrand-09557a140/"
+					   target="blankLinked">
+					<img src="https://qph.ec.quoracdn.net/main-qimg-1714929a97119ca71a0652d464b8a200"
+						 alt="logo de LinkedIn"
+						 class="logo"
+						 title="LinkedIn"></a>
+				</div>
+				<div id="logoGitHub" class="logoDiv">
+					<a href="https://github.com/"
+					   target="blankGitHub">
+					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+						 alt="logo de GitHub"
+						 class="logo"
+						 title="GitHub">
+					</a>
+				</div>
+				<div id="logoCodePen" class="logoDiv">
+					<a href="https://codepen.io/"
+					   target="blankCodePen">
+					<img src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png"
+						 alt="logo de CodePen"
+						 class="logo"
+						 title="CodePen">
+					</a>
+				</div>
+			</section>
+			<!--Le formulaire-->
+			<div id="formulaire" class="elFooter">
+				<h3>Des questions ?
+				</br>
+				Des remarques ?</h3>
+				<form method="POST" action="part-dans-le-vent">
+					<div class="caseFormulaire">
+						<label for="emailUser">Votre email</label>
+						<input type="texte"
+							   name="emailUser"
+							   id="emailUser"
+							   placeholder="mon.mail@cestici.com"
+							   title="Ecrivez votre adresse mail ici">
+					</div>
+					</br>
+					<div class="caseFormulaire">
+						<label for="messageUser">Votre message</label>
+						</br>
+						<textarea
+							   name="messageUser"
+							   id="messageUser"
+							   cols="30"
+							   rows="6"
+							   title="Ecrivez votre message ici">
+						</textarea>
+					</div>
+					</br>
+					<div class="caseFormulaire">
+						<input type="submit"
+								id="inputEnvoie"
+								value="Envoyer le formulaire"
+								title=":/ La page de réception est encore inexistante...">
+					</div>
+				</form>
+				</br>
+			</div>
+		</footer>
+		<!--<div class="container-fluid">
+			<div class="row">
+				<div class="col s3"></div>
+				<div class="col s3"></div>
+				<div class="col s3"></div>
+				<div class="col s3"></div>
+			</div>
+		</div>
+		-->
+		<!-- Colonne -->
+		<!--<div class="col s3">-->
+		<!-- Carte -->
+			<!--<div class="card">
+				<div class="card-image">-->
+			<!--	<img src="http://lorempixel.com/output/abstract-q-c-500-500-4.jpg"> -->
+			<!--	</div>
+				<div class="card-content">
+				<p>Je suis actuellement en train de concevoir cette page. Elle sera très
+				bientôt terminée ^^</p>
+				</div>
+			</div>-->
+		<!-- /Carte -->
+		<!-- 	</div>-->
+		<!-- /Colonne -->
+	</body>
+</html>
